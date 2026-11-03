@@ -1,0 +1,29 @@
+services:
+  archiver:
+    build: .
+    image: x-telegram-archiver:local
+    command: ["run-user"]
+    restart: unless-stopped
+    init: true
+    user: "${ARCHIVER_UID:-1000}:${ARCHIVER_GID:-1000}"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    environment:
+      ARCHIVER_DATA_DIR: /data
+      ARCHIVER_PROXY_URL: ${ARCHIVER_PROXY_URL:-}
+      ARCHIVER_X_COOKIE_FILE: ${ARCHIVER_X_COOKIE_FILE:-}
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data
+        bind:
+          create_host_path: false
+    tmpfs:
+      - /tmp:size=128m,mode=1777
+    stop_grace_period: 2m
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"

@@ -1,0 +1,5 @@
+yt-dlp==2026.10.26
+requests==2.34.2
+imageio-ffmpeg==0.7.0
+Telethon==1.45.0
+python-socks[asyncio]==2.8.2

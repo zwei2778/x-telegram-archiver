@@ -1,0 +1,5 @@
+# Only these public source files enter the build context.
+**
+!Dockerfile
+!requirements-runtime.txt
+!archiver.py
