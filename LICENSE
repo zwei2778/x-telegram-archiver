@@ -1,64 +1,21 @@
-X Telegram Archiver Personal Non-Commercial License 1.0
+MIT License
 
 Copyright (c) 2026 zwei2778
-All rights reserved except for the permissions expressly granted below.
 
-1. Scope
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This license applies only to the original code and documentation of this
-repository. Third-party software remains under its own licenses; see
-THIRD_PARTY.md. This is a source-available license, not an OSI-approved
-open-source license.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. Personal non-commercial permission
-
-An individual may download, inspect, run, and privately modify the Software
-solely for that individual's personal, non-commercial use on devices they
-control. No payment to the copyright holder is required for these uses.
-Private modifications do not need to be submitted or disclosed to the author.
-Copyright and license notices must be retained in copies.
-
-3. Uses requiring separate written permission
-
-Without the copyright holder's prior written permission, you may not:
-
-(a) use the Software for commercial purposes, including selling copies,
-    offering paid access, paid hosting or paid services based on it,
-    including it in a commercial product, or using it in a business's
-    operations;
-(b) publish, distribute, sublicense, or make available to others a modified
-    version of the Software, whether free of charge or for payment;
-(c) use the Software on behalf of a company or other organization. The
-    personal-use permission in section 2 is a permission to individuals.
-
-No permission to redistribute copies outside the permissions expressly
-granted by this license or the applicable hosting platform terms is implied.
-Sharing a link to the official repository is permitted.
-
-4. GitHub platform rights
-
-This license does not revoke rights to view or fork the public repository
-that are independently granted under GitHub's applicable Terms of Service.
-That exception does not grant an additional right under this license to
-commercialize the Software or publish modified versions outside those
-platform rights. Public source code is technically copyable; this license
-states permissions and restrictions, not a technical copy-protection system.
-
-5. Other rights
-
-No trademark rights or rights in third-party content are granted. This
-license does not replace permissions needed for content you archive, or
-the terms of external services you use. Rights that applicable law does not
-permit a licensor to restrict are not restricted by this license.
-
-6. Termination
-
-Permission under this license ends if you violate its conditions. Obtain
-separate written permission from the copyright holder before a use that
-is not covered here. Requests may be made through this repository's Issues.
-
-7. No warranty; limitation of liability
-
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
-"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THE COPYRIGHT
-HOLDER IS NOT LIABLE FOR CLAIMS OR DAMAGES ARISING FROM USE OF THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
